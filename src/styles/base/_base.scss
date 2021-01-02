@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Roboto";
+    font-size: $m-size;
+    background-color: $first;
+    color: $forth;
+}
+
+button{
+    cursor: pointer;
+
+    &:disabled{
+        cursor: default;
+    }
+}
